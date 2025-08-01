@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(207, 231, 223);
+    
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+#main-container {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(63, 60, 60);
+    padding: 15px;
+    margin: 200px auto;
+    border-radius: 15px;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2px;
+}
+
+.btn-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2px;
+}
+
+#clear-btn, #backspace-btn {
+    flex: 1;
+}
+
+#period-btn, #zero-btn {
+    flex: 0.175 0 auto;
+}
+
+#equals-btn {
+    flex: 1;
+}
+
+#screen-container {
+    height: 175px;
+    width: auto;
+    background-color: darkgray;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.number-btn {
+    background-color: aliceblue;
+}
+
+ .action-btn {
+    background-color: rgb(109, 132, 153);
+ }
+
+ .operator-btn {
+    background-color: orange;
+ }
+
+ .del-btn {
+    background-color: rgb(224, 86, 86);
+ }
+
+ /* #container {
+    background-color: rgb(110, 74, 20);
+ } */
