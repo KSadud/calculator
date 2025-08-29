@@ -186,52 +186,130 @@ exp.addEventListener('click', () => {
 
 
 nine.addEventListener('click', () => {
+    if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "9";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "9";
     currentText.textContent = current;
+    }
 });
 
 eight.addEventListener('click', () => {
+   if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "8";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "8";
     currentText.textContent = current;
+    }
 });
 
 seven.addEventListener('click', () => {
+   if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "7";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "7";
     currentText.textContent = current;
+    }
 });
 
 six.addEventListener('click', () => {
+    if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "6";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "6";
     currentText.textContent = current;
+    }
 });
 
 five.addEventListener('click', () => {
+    if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "5";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "5";
     currentText.textContent = current;
+    }
 });
 
 four.addEventListener('click', () => {
+   if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "4";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "4";
     currentText.textContent = current;
+    }
 });
 
 three.addEventListener('click', () => {
+    if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "3";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "3";
     currentText.textContent = current;
+    }
 });
 
 two.addEventListener('click', () => {
+    if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "2";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "2";
     currentText.textContent = current;
+    }
 });
 
 one.addEventListener('click', () => {
+    if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "1";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else {
     current += "1";
     currentText.textContent = current;
+    }
 });
 
 zero.addEventListener('click', () => {
-    if (current != "" || result != 0) {
+    if (result != "" && current != "") {
+        current = "";
+        result = "";
+        current += "0";
+        currentText.textContent = current;
+        resultText.textContent = result;
+    } else if (current != "" || result != 0) {
     current += "0";
     currentText.textContent = current;
     }
